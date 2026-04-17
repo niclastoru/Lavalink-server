@@ -6,11 +6,9 @@ lavalink:
   plugins:
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.0"
       snapshot: false
-    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.0.0"
-      snapshot: false
 
   server:
-    password: "DEIN_SICHERES_PASSWORT"
+    password: "youshallnotpass"
     sources:
       youtube: true
       soundcloud: true
@@ -37,23 +35,6 @@ lavalink:
         - WEB
         - ANDROID
         - IOS
-    lavasrc:
-      providers:
-        - "ytsearch:\"%ISRC%\""
-        - "ytsearch:%QUERY%"
-      sources:
-        spotify: true
-        apple-music: false
-        deezer: false
-        yandex-music: false
-        flowery-tts: false
-        youtube: true
-      spotify:
-        clientId: "SPOTIFY_CLIENT_ID"
-        clientSecret: "SPOTIFY_CLIENT_SECRET"
-        countryCode: "DE"
-        playlistLoadLimit: 6
-        albumLoadLimit: 6
 
 metrics:
   prometheus:
