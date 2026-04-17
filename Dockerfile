@@ -1,3 +1,3 @@
-FROM ghcr.io/lavalink-devs/lavalink:alpine
+FROM ghcr.io/lavalink-devs/lavalink:latest
 COPY application.yml /opt/Lavalink/application.yml
 EXPOSE 2333
