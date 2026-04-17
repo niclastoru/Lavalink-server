@@ -1,3 +1,3 @@
-FROM ghcr.io/lavalink-devs/lavalink:latest
+FROM ghcr.io/freyacodes/lavalink:latest
 COPY application.yml /opt/Lavalink/application.yml
 EXPOSE 2333
